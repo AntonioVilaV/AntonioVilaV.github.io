@@ -132,7 +132,7 @@ nav {
 .mode {
     display: flex;
     align-items: center;
-    margin-right: -2%;
+    /*margin-right: -2%;*/
 }
 
 .moon-sun {
@@ -973,6 +973,12 @@ footer {
 
 }
 
+@media only screen and (max-width: 640px) {
+    .mode {
+        margin-left: 40%;
+    }
+}
+
 @media only screen and (max-width: 540px) {
     .featured-name {
         font-size: 40px;
@@ -995,7 +1001,7 @@ footer {
     }
 
     .mode {
-        margin-left: 50%;
+        margin-left: 40%;
     }
 }
 
