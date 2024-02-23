@@ -311,9 +311,9 @@ i {
 
 .image {
     margin-top: 10%;
-    width: 50px;
+    width: 500px;
     height: 700px;
-    border-radius: 40% 40% 40% 40%;
+    border-radius: 40%;
     overflow: hidden;
     animation: imgFloat 5s ease-in-out infinite;
 }
@@ -345,7 +345,7 @@ i {
 
 .col {
     display: flex;
-    width: 100%;
+    width: 50%;
 }
 
 .top-header {
@@ -373,7 +373,7 @@ i {
     border-radius: 20px;
 }
 
-.about-me {
+.about-me * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-transition: all 0.25s ease;
@@ -387,7 +387,18 @@ i {
 }
 
 .aboout-me .profile {
-    border-radius: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100%;
+    left: 20px;
+    z-index: 1;
+    background-color: #fff;
+    max-width: 90px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#profile {
+    border-radius: 50%;
     position: absolute;
     bottom: 100%;
     left: 20px;
@@ -409,7 +420,7 @@ i {
 .about-info .about-me-btn {
     text-decoration: none;
     font-size: 15px;
-    padding: 10px 10px;
+    padding: 10px 20px;
     cursor: pointer;
     border: none;
     border-radius: 20px;
